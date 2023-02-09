@@ -104,15 +104,7 @@ figure{
 .datesedu{
   text-align: left;
 }
-.skills{
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
-  font-family:"Optima", sans-serif;
-  padding-right: 50px;
-  margin-right:100px;
-  width: 20vw;
-}
+
 .interests{
   display: block;
   padding-top: 100px;
