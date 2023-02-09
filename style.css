@@ -22,15 +22,16 @@ nav a:hover{
 }
 .main{
   display: flex;
-  margin-right: 100vw;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
 }
 .left{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width:100vw;
-  padding-left: 200px;
-  border-right: 0.5px solid lightgray;
+  justify-content: center;
 }
 img {
   width: 200px;
@@ -48,17 +49,9 @@ figure{
   border-left: 0.5px solid lightgrey;
   height: 700px;
   float: left;
-  padding: 20px;
 }
 .right{
-  display: flex;
-  flex-direction: row;
   padding-left:50px;
-  text-align: left;
-  border-top: .5px;
-  margin-bottom: 60px;
-  padding-right: 100px;
-  width: 100vw;
 }
 .rightskills{
   display: flex;
@@ -162,6 +155,7 @@ figure{
       border-bottom: 00.5px solid lightgray;
  }
   .right{
+      margin-bottom: 60px;
       padding:0px;
  }
   .caption {
@@ -187,7 +181,7 @@ figure{
       width: 100vw;
  }
   .skills{
-      margin-bottom: 60px;
+      margin-bottom: 50px;
       width: 100vw;
       padding: 0px;
       display: flex;
