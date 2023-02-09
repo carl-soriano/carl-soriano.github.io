@@ -53,15 +53,7 @@ figure{
 .right{
   padding-left:50px;
 }
-.rightskills{
-  display: flex;
-  flex-direction: row;
-  padding-left:30px;
-  text-align: left;
-  border-top: .5px;
-  width: 100vw;
-  margin-bottom: 60px;
-}
+
 .about {
   display: block;
   padding-top: 100px;
